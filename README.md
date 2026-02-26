@@ -1,2 +1,12 @@
-# vscode-compile-debug-run-environment
-配置vscode的c/cpp编程环境，在配置编译、调试和运行环境时所需要的文件（多版本）（一键完成）
+#在windows操作系统配置vscode的c和cpp编程环境时在配置编译、调试、运行阶段所需要的文件
+##这个仓库为谁提供服务？
+在windows操作系统配置vscode的c、cpp编程环境分为以下几个步骤：
+
+1，下载并安装vscode 
+
+2，下载拓展包，如c、cpp拓展包（对于中国用户如有需要可下载中文拓展包） 
+
+3，下载MinGW,并将其中的bin文件的路径添加到系统环境变量中的path 
+
+4，配置编译、调试和运行的环境。   
+
