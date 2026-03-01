@@ -40,7 +40,7 @@
 2,添加编译运行的快捷方式：此仓库内所有文件默认为：alt+f9
 - 在vscode界面内，先按下ctrl+k，然后按下ctrl+s，进入快捷键设置页面
 - 在右上角找到一个图标，名字是【打开键盘快捷方式（JSON）】，点击后自动生成一个keybinding.json文件
-- 在本仓库内找到名为【快捷方式】的文件夹，其中有个.json文件，将其中内容复制粘贴到keybinding.json文件中，保存即可（注意，这个keybinding.json文件在生成时就会保存在这个地址"C:\Users\lenovo\AppData\Roaming\Code\User\keybindings.json"）
+- 在本仓库内找到名为【keybinding】的文件夹，其中有个.json文件，将其中内容复制粘贴到keybinding.json文件中，保存即可（注意，这个keybinding.json文件在生成时就会保存在这个地址"C:\Users\lenovo\AppData\Roaming\Code\User\keybindings.json"）
 
 完成以上两个步骤后，就可以进行编译、调试和运行了！！
 
