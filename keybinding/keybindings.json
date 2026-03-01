@@ -1,0 +1,12 @@
+[
+  //如果想要改快捷键，在下面key后面将双引号里面的内容换为你想要设定的快捷键  
+  {
+        "key": "alt+f9",          // 快捷键：alt + f9（无冲突，放心用）
+        "command": "workbench.action.tasks.runTask", // 固定命令，不要改
+        "args": {
+            "task": "run the program ,keep the window", //比如和tasks.json里面的label一模一样，如果直接复制仓库里面的那就是一样的
+            "type": "shell"       // 固定值，和tasks.json里的type一致
+        },
+        "when": "editorTextFocus" // 生效条件：编辑器有光标（确保在代码页按才生效）
+    }
+]
