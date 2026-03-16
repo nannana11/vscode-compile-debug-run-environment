@@ -40,15 +40,11 @@
 - 打开这个文件夹，下载其中的.vscode文件夹到你的电脑
 - 将这个.vscode文件夹和你需要进行编译运行的.c或者.cpp文件放在同一文件夹内，且保证它们处于同一级，即需要这样的文件结构：
 
---------------file
-
--------.vscode
-
---tasks.json
-
---launch.json
-
--------target_file.c
+- file
+- - .vscode
+- - - tasks.json
+- - -launch.json
+- - target_file.c
 
 2,添加编译运行的快捷方式：此仓库内所有文件默认为：alt+f9
 - 在vscode界面内，先按下ctrl+k，然后按下ctrl+s，进入快捷键设置页面
