@@ -43,7 +43,7 @@
 - file
 - - .vscode
 - - - tasks.json
-- - -launch.json
+- - - launch.json
 - - target_file.c
 
 2,添加编译运行的快捷方式：此仓库内所有文件默认为：alt+f9
